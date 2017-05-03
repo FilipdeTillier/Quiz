@@ -87,6 +87,7 @@
                 console.log(seconds);
                 console.log(time);
                 if (time < 0) {
+                     timer.innerHTML = " ";
                     outOfTime.style.visibility = "visible";
                     endTime.addEventListener('click', function() {
                         location.reload()
