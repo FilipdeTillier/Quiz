@@ -1,3 +1,97 @@
-body {}
+#yt:hover {
+    background-color: #e52d27;
+    cursor: pointer;
+}
 
-.question {}
+#fb:hover {
+    background-color: #3b5998;
+    cursor: pointer;
+}
+
+#ln:hover {
+    background-color: #007bb5;
+    cursor: pointer;
+}
+
+#inst:hover {
+    background-color: #e95950;
+    cursor: pointer;
+}
+
+#startinfo {
+    top: 35%;
+    left: 30%;
+    z-index: 2000;
+    position: fixed;
+    width: 40%;
+    max-width: 40%;
+    max-height: 30%;
+    height: 30%;
+    background-color: gray;
+    visibility: visible;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+body {
+    z-index: 1000;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    visibility: visible;
+}
+
+#endinfofalse {
+    top: 35%;
+    left: 30%;
+    z-index: 2000;
+    position: fixed;
+    width: 40%;
+    max-width: 40%;
+    max-height: 30%;
+    height: 30%;
+    background-color: gray;
+    visibility: hidden;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+#endinfotrue {
+    top: 35%;
+    left: 30%;
+    z-index: 2000;
+    position: fixed;
+    width: 40%;
+    max-width: 40%;
+    max-height: 30%;
+    height: 30%;
+    background-color: gray;
+    visibility: hidden;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+#outoftime {
+    top: 35%;
+    left: 30%;
+    z-index: 2000;
+    position: fixed;
+    width: 40%;
+    max-width: 40%;
+    max-height: 30%;
+    height: 30%;
+    background-color: gray;
+    visibility: hidden;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 20px;
+    opacity: 1.0;
+}
